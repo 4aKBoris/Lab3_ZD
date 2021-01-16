@@ -10,8 +10,8 @@
     <packaging>jar</packaging>
 
     <properties>
-        <kotlin.version>1.2.60</kotlin.version>
-        <tornadofx.version>1.7.17</tornadofx.version>
+        <kotlin.version>1.4.21</kotlin.version>
+        <tornadofx.version>1.7.20</tornadofx.version>
     </properties>
 
     <dependencies>
@@ -30,6 +30,21 @@
             <artifactId>kotlin-test</artifactId>
             <version>${kotlin.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15</artifactId>
+            <version>1.46</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.naming</groupId>
+            <artifactId>jndi</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.cryptacular</groupId>
+            <artifactId>cryptacular</artifactId>
+            <version>1.2.4</version>
         </dependency>
     </dependencies>
 
